@@ -1,0 +1,15 @@
+.cont-btn {
+    display: flex;
+    justify-content: center;
+    button.btn-all-products {
+        width: 237px;
+        height: 48px;
+        background-color: $dark-pink;
+        color: $white;
+        border: none;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: "Filson Pro";
+        cursor: pointer;
+    }
+}
