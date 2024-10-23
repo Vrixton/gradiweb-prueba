@@ -4,12 +4,15 @@
     button.btn-all-products {
         width: 237px;
         height: 48px;
-        background-color: $dark-pink;
-        color: $white;
-        border: none;
-        border-radius: 50px;
-        text-transform: uppercase;
-        font-family: "Filson Pro";
-        cursor: pointer;
     }
+}
+.btn-pink {
+    background-color: $dark-pink;
+    color: $white;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: "Filson Pro";
+    cursor: pointer;
+    height: 48px;
 }

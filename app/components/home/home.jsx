@@ -29,7 +29,7 @@ const HomePage = () => {
         <HeaderTitle />
         <CarouselProducts products={products} />
         <div className="cont-btn">
-          <button className="btn-all-products">Browse all products</button>
+          <button className="btn-all-products btn-pink">Browse all products</button>
         </div>
         <Footer />
       </div>
