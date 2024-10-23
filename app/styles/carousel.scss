@@ -1,0 +1,128 @@
+.react-multi-carousel-list {
+    padding: 0rem 0 2rem 0;
+    margin-top: -185px;
+    @media (max-width: 700px) {
+        margin-top: -100px;
+    }
+    .react-multi-carousel-track  {
+        padding-top: 130px;
+    }
+    .item-carousel {
+        height: 400px;
+        padding: 15px;
+        &__img {
+            background-position: center;
+            height: 250px;
+            border-radius: 15px;
+            background-size: inherit;
+            padding: 10px;
+            position: relative;
+            .btn-add-cart {
+                position: absolute;
+                width: calc(100% - 20px);
+                height: 48px;
+                bottom: 10px;
+                padding: 12px 32px 12px 40px;
+                border-radius: 100px;
+                border: 0;
+                opacity: 0.9;
+                background-color: $white;
+                cursor: pointer;
+                text-transform: uppercase;
+                color: $dark-pink;
+                transition: .3s;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+        .cont-data {
+            display: flex;
+            justify-content: space-between;
+            @media (max-width: 700px) {
+                flex-wrap: wrap;
+            }
+        }
+        &__stars {
+            display: flex;
+            p.inventory {
+                color: $light-grey;
+                margin-left: 10px;
+            }
+        }
+        &__data {
+            margin-top: 10px;
+            font-family: "Filson Pro";
+            p.title {
+                font-weight: 500;
+                line-height: 23px;
+                color: $dark-grey;
+                font-style: italic;
+            }
+        }
+        &__price {
+            display: flex;
+            margin-left: 10px;
+            .last-price {
+                color: $light-grey;
+                text-decoration: line-through;
+                margin-right: 10px;
+                font-weight: lighter;
+            }
+        }
+    }
+}
+
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left, .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    background-color: transparent;
+    &:hover {
+        background-color: transparent; 
+    }
+    &::before {
+        color: $dark-grey;
+        background-color: $white;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+        transition: .3s;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: $light-pink;
+        z-index: -1;
+        border-radius: 20px;
+        height: 21px;
+        width: 120%;
+        margin-left: -32px;
+        margin-top: -25px;
+    }
+}
+
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    position: absolute;
+    left: auto;
+    right: 200px;
+    margin-top: -400px;
+    @media (max-width: 700px) {
+        left: 50px;
+        right: auto;
+    }
+
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    position: absolute;
+    right: 140px;
+    margin-top: -400px;
+    @media (max-width: 700px) {
+        left: 110px;
+        right: auto;
+    }
+}
