@@ -28,7 +28,7 @@ const HomePage = () => {
         <HeaderTitle />
         <CarouselProducts products={products} />
         <div className="cont-btn">
-          <button>Browse all products</button>
+          <button className="btn-all-products">Browse all products</button>
         </div>
         <div className="footer">
           <h2 className="footer--title">Join the green revolution without commitment</h2>
