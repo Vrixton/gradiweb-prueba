@@ -1,5 +1,4 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from "next/image"
 import Layout from "@/app/components/layout/layout"
 import TopBar from "@/app/components/top-bar/top-bar"
 
