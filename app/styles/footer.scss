@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 100px;
+    background-color: red;
+    background-color: $light-blue;
+    padding: 50px;
+    height: 500px;
+    background-image: url("../../public/assets/background.png");
+    &__title {
+        text-align: center;
+        font-family: "Abhaya Libre";
+        color: $body-titles;
+        margin-top: 50px;
+    }
+    &__description {
+        text-align: center;
+        font-family: "Filson pro";
+        color: $light-grey;
+        margin: 0 auto;
+        margin-top: 40px;
+        max-width: 450px;
+    }
+}
