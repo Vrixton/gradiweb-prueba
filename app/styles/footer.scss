@@ -1,0 +1,36 @@
+.footer {
+    // position: relative;
+    margin-top: 230px;
+    background-color: $light-blue;
+    // padding: 50px;
+    // height: 500px;
+    // overflow: hidden;
+    &__top {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        margin-top: -150px;
+        height: auto;
+        // // background-color: yellow;
+        // width: 100%;
+        // height: 100px;
+        // background-image: url("/public/assets/background.png");
+        // position: absolute;
+        // left: 0;
+        // top: -80px;
+    }
+    &__title {
+        text-align: center;
+        font-family: "Abhaya Libre";
+        color: $body-titles;
+        margin-top: 50px;
+    }
+    &__description {
+        text-align: center;
+        font-family: "Filson pro";
+        color: $light-grey;
+        margin: 0 auto;
+        margin-top: 40px;
+        max-width: 450px;
+    }
+}

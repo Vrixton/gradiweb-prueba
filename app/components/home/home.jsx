@@ -3,6 +3,7 @@ import axios from "axios"
 import TopBar from "@/app/components/top-bar/top-bar"
 import HeaderTitle from "@/app/components/header-title/header-title"
 import CarouselProducts from "@/app/components/carousel-products/carousel-products"
+import Footer from "@/app/components/footer/footer"
 
 const HomePage = () => {
   const [products, setProducts] = useState([]);
@@ -30,14 +31,7 @@ const HomePage = () => {
         <div className="cont-btn">
           <button className="btn-all-products">Browse all products</button>
         </div>
-        <div className="footer">
-          <h2 className="footer--title">Join the green revolution without commitment</h2>
-          <p className="footer--info"> If you are missing something and don't want to miss future promotions  or our future products</p>
-          <div className="footer--cont-form">
-            <input type="text" />
-            <button>send</button>
-          </div>
-        </div>
+        <Footer />
       </div>
   );
 }
