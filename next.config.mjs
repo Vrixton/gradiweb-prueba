@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
-import type { NextConfig } from 'next'
  
-const nextConfig: NextConfig = {
+const nextConfig = {
   sassOptions: {
     additionalData: `$var: red;`,
     implementation: 'scss-embedded',
