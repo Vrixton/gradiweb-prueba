@@ -1,11 +1,9 @@
 .footer {
     margin-top: 230px;
-    background-color: $light-blue;
-    height: 400px;
     &__top {
         width: 100%;
         position: absolute;
-        z-index: -1;
+        z-index: -2;
         margin-top: -150px;
         height: auto;
     }
@@ -22,5 +20,12 @@
         margin: 0 auto;
         margin-top: 40px;
         max-width: 450px;
+    }
+    &__bg-color {
+        position: absolute;
+        background-color: $light-blue;
+        height: 400px;
+        width: 100%;
+        z-index: -2;
     }
 }
