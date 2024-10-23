@@ -1,13 +1,14 @@
 import Image from "next/image"
 import Layout from "@/app/components/layout/layout"
 import TopBar from "@/app/components/top-bar/top-bar"
+import HeaderTitle from "@/app/components/header-title/header-title"
 
 export default function Home() {
   return (
     <Layout>
       <div className="home-container">
         <TopBar />
-        <h1 className="title">Discover our planet pet-friendly offer</h1>
+        <HeaderTitle />
         <div className="cont-carousel">
           <div className="cont-carousel-arrows">
             <button className="carouser-btn-left">left</button>
